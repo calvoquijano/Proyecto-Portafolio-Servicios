@@ -1,42 +1,60 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+h1, h2, h3, h4, h5, h6{
+  font-family: var(--tipo-letra-h);
+  font-weight: var(--peso-letra-g);
+}
+h1{
+  font-size: 80px;
+}
+h2{
+  font-size: 72px;
+}
+h3{
+  font-size: 2.4rem;
+}
+h4{
+  font-size: 1.8rem;
+}
+h5{
+  font-size: 1.2rem;
+}
+h6, b, strong, a{
+  font-weight: var(--peso-letra-b);
+}
+a{
+  text-decoration: none;
+  color: var(--color-prima-azul);
+}
+a:hover, a:active{
+  color: var(--color-comp-azul);
+}
+a.link--secundario{
+  text-decoration: none;
+  color: var(--color-prima-violeta);
+}
+a:hover.link--secundario, a:active.link--secundario{
+  color: var(--color-comp-morado);
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
+a.link--ok{
+  text-decoration: none;
+  color: var(--color-prima-verde);
 }
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+a:hover.link--ok, a:active.link--ok{
+  color: var(--color-comp-azul);
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+a.link--cancelar{
+  text-decoration: none;
+  color: var(--color-gris);
+}
+a:hover.link--cancelar, a:active.link--cancelar{
+  color: var(--color-negro);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+em, i{
+  font-weight: var(--peso-letra-g);
+  font-style: normal;
 }
-
-.card {
-  padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
+em{
+  font-style: normal;
 }
