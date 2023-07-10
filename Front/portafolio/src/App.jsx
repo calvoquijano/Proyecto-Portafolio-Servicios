@@ -1,43 +1,34 @@
-import './App.css'
+import { Route, Routes } from "react-router-dom";
+import "./App.css";
+import Navbar from "./Components/Layouts/Navbar/Navbar";
+import Footer from "./Components/Layouts/Footer/Footer";
+import Home from "./Components/Pages/Home/Home";
+import Experiencia from "./Components/Pages/Experiencia/Experiencia";
+import Habilidades from "./Components/Pages/Habilidades/Habilidades";
+import Servicios from "./Components/Pages/Servicios/Servicios";
+import Trabajo from "./Components/Pages/Trabajo/Trabajo";
+import NotFound from "./Components/Pages/NotFound/NotFound";
+
+
+
 
 function App() {
   return (
     <>
-      <div>
-      </div>
-      <h1>Vite + React</h1>
-      <h2>Vite + React</h2>
-      <h3>Vite + React</h3>
-      <h4>Vite + React</h4>
-      <h5>Vite + React</h5>
-      <h6>Vite + React</h6>
-      
-      <p>
-        Click on the Vite and React logos to learn more
-      </p>
-      <p>
-        <b> Click on the Vite and React logos to learn more</b>
-      </p>
-      <p>
-        <em> Click on the Vite and React logos to learn more</em>
-      </p>
-      <p>
-        <i> Click on the Vite and React logos to learn more</i>
-      </p>
-      <p>
-        <a href=''> Click on the Vite and React logos to learn more</a>
-      </p>
-      <p>
-        <a href='' className='link--secundario'> Click on the Vite and React logos to learn more</a>
-      </p>
-      <p>
-        <a href='' className='link--ok'> Click on the Vite and React logos to learn more</a>
-      </p>
-      <p>
-        <a href='' className='link--cancelar'> Click on the Vite and React logos to learn more</a>
-      </p>
+      <Routes>
+        <Route element={<Navbar />}>
+          <Route element={<Footer />}>
+            <Route path="/" element={<Home />} />
+            <Route path="/experiencia" element={<Experiencia />} />
+            <Route path="/habilidades" element={<Habilidades />} />
+            <Route path="/servicios" element={<Servicios />} />
+            <Route path="/trabajo" element={<Trabajo />} />
+          </Route>
+        </Route>
+        <Route path="*" element={<NotFound />} />
+      </Routes>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
