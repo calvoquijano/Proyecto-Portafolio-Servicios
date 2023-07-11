@@ -1,9 +1,16 @@
-import React from 'react'
+import React from "react";
+import AlgunosTrabajos from "./AlgunosTrabajos/AlgunosTrabajos";
+import SobreMi from "./SobreMi/SobreMi";
+import stylesHome from "./Home.module.css"
+
 
 const Home = () => {
   return (
-    <div>Home</div>
-  )
-}
+    <div className={stylesHome.container}>
+      <SobreMi />
+      <AlgunosTrabajos />
+    </div>
+  );
+};
 
-export default Home
+export default Home;
