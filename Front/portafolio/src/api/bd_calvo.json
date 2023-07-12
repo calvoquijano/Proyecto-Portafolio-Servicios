@@ -1,0 +1,53 @@
+{
+  "perfil": [
+    {
+      "id": 1,
+      "nombre": "Andrés 'El Calvo' Quijano",
+      "rol": "Diseñador UX / UI y \nDesarrollador Front End.",
+      "perfil": "Diseñador UX / UI y Desarrollador Front End en JavaScript con React. \nTrabajo bajo la metodología Agile Scrum, utilizando las herramientas de proceso y técnicas de Design Thinking y DevOps. \nEntre mis competencias está la de crear diseños centrados en el usuario final, realizando el estudio y la investigación pertinente de la funcionalidad del requerimiento, lo más importante es empatizar, definir e idear, también iterar para pasar a la etapa del prototipado y así poder testear. \nTengo experiencia de más de 10 años en el diseño UI y más de 5 en el diseño UX, adicional cuento con un basto conocimiento en el área del desarrollo Frontend, destacándome en HTML5, CSS con el pre-procesador SASS, JavaScript y el Framework React.",
+      "imagen": "http://calvoquijano.com/images/headers/home.png",
+      "experiencia": [
+        {
+          "id": 1,
+          "cargo": "Líder de diseño UX / UI",
+          "empresa": "Hitss Colombia",
+          "departamento": "App Mi Claro",
+          "inicio": 2018,
+          "fin": 0
+        }
+      ],
+      "habilidades": [
+        {
+          "id": 1,
+          "icon": "http://calvoquijano.com/images/icos/simple-icons_Figma.svg",
+          "nombrehab": "Figma",
+          "porcentaje": 95
+        }
+      ]
+    }
+  ],
+  "trabajo": [
+    {
+      "id": 1,
+      "titulo": "1er Rediseño Mi Claro",
+      "descripcioncortra": "Primer rediseño de la aplicación App Mi Claro, se realizaron mejoras visuales y algunos ajustes de arquitectura de la información, pasamos de tener 2.8 en la calificación de la tienda Android a tener 4.2:",
+      "problema": "Poca empatía de la comunidad hacia la herramienta, las personas no sentían cercanía al ver que la app era diferente a todo lo que mostraba ser Claro como marca.",
+      "solucion": "Crear un sistema de diseño y con base en él, rediseñar la aplicación.",
+      "reto": "Subir la calificación de App Mi Claro, haciendo que la gente se sienta un poco más identificada con la marca.",
+      "imagenprincipal": "http://calvoquijano.com/images/headers/rediseno1.png",
+      "imagenuno": "http://calvoquijano.com/images/trabajos/uxui/rediseno-1/rediseno01-02.jpg",
+      "imagendos": "http://calvoquijano.com/images/trabajos/uxui/rediseno-1/rediseno01-03.jpg",
+      "imagentres": "http://calvoquijano.com/images/trabajos/uxui/rediseno-1/rediseno01-04.jpg",
+      "imagencuatro": "http://calvoquijano.com/images/trabajos/uxui/rediseno-1/rediseno01-05.jpg",
+      "imagencinco": "http://calvoquijano.com/images/trabajos/uxui/rediseno-1/rediseno01-06.jpg",
+      "categoria": [
+        {
+          "id": 1,
+          "nombrecat": "Diseño UX / UI",
+          "descripcioncat": "Mi experiencia como Diseñador UX/UI comienza hace ya más de 5 años como diseñador UI junior para marcas como ACDelco y algunos juegos interactivos de la agencia Clab!\nTambién, mi crecimiento más importante y radical surgió de la marca Claro, en donde han estado los retos más importantes de mi carrera como diseñador UX/UI.",
+          "imagencat": "http://calvoquijano.com/images/headers/home.png"
+        }
+      ]
+    }
+  ]
+}

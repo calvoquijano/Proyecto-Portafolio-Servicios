@@ -20,6 +20,16 @@ h5{
 h6, b, strong, a{
   font-weight: var(--peso-letra-b);
 }
+em, i{
+  font-weight: var(--peso-letra-g);
+  font-style: normal;
+}
+em{
+  font-style: normal;
+}
+
+/*Links y botones*/
+/*Links*/
 a{
   text-decoration: none;
   color: var(--color-prima-azul);
@@ -50,11 +60,78 @@ a.link--cancelar{
 a:hover.link--cancelar, a:active.link--cancelar{
   color: var(--color-negro);
 }
-
-em, i{
-  font-weight: var(--peso-letra-g);
-  font-style: normal;
+/*Botones*/
+.boton-general{
+  border-radius: 0 !important;
+  text-transform: none !important;
+  font-family: var(--tipo-letra-h) !important;
+  font-weight: var(--peso-letra-b) !important;
+  padding: 5px 20px !important;
+  margin: 20px 0 !important ; 
 }
-em{
-  font-style: normal;
+/*Primarios*/
+.boton-primario-azul{
+  border: 2px solid var(--color-blanco) !important;
+  background-color: var(--color-prima-azul) !important;
+  color: var(--color-blanco) !important;
+}
+.boton-primario-azul:hover{
+  background-color: var(--color-comp-azul) !important;
+}
+.boton-primario-violeta{
+  border: 2px solid var(--color-blanco) !important;
+  background-color: var(--color-prima-violeta) !important;
+  color: var(--color-blanco) !important;
+}
+.boton-primario-violeta:hover{
+  background-color: var(--color-comp-morado) !important;
+}
+.boton-primario-verde{
+  border: 2px solid var(--color-blanco) !important;
+  background-color: var(--color-prima-verde) !important;
+  color: var(--color-blanco) !important;
+}
+.boton-primario-verde:hover{
+  background-color: var(--color-comp-azul) !important;
+}
+.boton-primario-cancelar{
+  border: 2px solid var(--color-blanco) !important;
+  background-color: var(--color-negro) !important;
+  color: var(--color-blanco) !important;
+}
+.boton-primario-cancelar:hover{
+  background-color: var(--color-gris) !important;
+}
+/*Outlined*/
+.boton-outlined-azul{
+  border: 2px solid var(--color-prima-azul) !important;
+  color: var(--color-prima-azul) !important;
+}
+.boton-outlined-azul:hover{
+  border: 2px solid var(--color-comp-azul) !important;
+  color: var(--color-comp-azul) !important;
+}
+.boton-outlined-violeta{
+  border: 2px solid var(--color-prima-violeta) !important;
+  color: var(--color-prima-violeta) !important;
+}
+.boton-outlined-violeta:hover{
+  border: 2px solid var(--color-comp-morado) !important;
+  color: var(--color-comp-morado) !important;
+}
+.boton-outlined-verde{
+  border: 2px solid var(--color-prima-verde) !important;
+  color: var(--color-prima-verde) !important;
+}
+.boton-outlined-verde:hover{
+  border: 2px solid var(--color-comp-azul) !important;
+  color: var(--color-comp-azul) !important;
+}
+/*Disabled*/
+.boton-disabled{
+  opacity: 0.4 !important;
+  box-shadow: none !important;
+}
+.boton-disabled:hover{
+  cursor: not-allowed !important;
 }

@@ -1,6 +1,9 @@
 .container{
     background-color: var(--color-prima-amarillo);
 }
+.titulos{
+    padding: 4%;
+}
 .imagenes{
     width: 100%;
 }
