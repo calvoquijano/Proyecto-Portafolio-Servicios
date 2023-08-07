@@ -26,26 +26,26 @@
       ]
     }
   ],
-  "trabajo": [
+  "categoria": [
     {
       "id": 1,
-      "titulo": "1er Rediseño Mi Claro",
-      "descripcioncortra": "Primer rediseño de la aplicación App Mi Claro, se realizaron mejoras visuales y algunos ajustes de arquitectura de la información, pasamos de tener 2.8 en la calificación de la tienda Android a tener 4.2:",
-      "problema": "Poca empatía de la comunidad hacia la herramienta, las personas no sentían cercanía al ver que la app era diferente a todo lo que mostraba ser Claro como marca.",
-      "solucion": "Crear un sistema de diseño y con base en él, rediseñar la aplicación.",
-      "reto": "Subir la calificación de App Mi Claro, haciendo que la gente se sienta un poco más identificada con la marca.",
-      "imagenprincipal": "http://calvoquijano.com/images/headers/rediseno1.png",
-      "imagenuno": "http://calvoquijano.com/images/trabajos/uxui/rediseno-1/rediseno01-02.jpg",
-      "imagendos": "http://calvoquijano.com/images/trabajos/uxui/rediseno-1/rediseno01-03.jpg",
-      "imagentres": "http://calvoquijano.com/images/trabajos/uxui/rediseno-1/rediseno01-04.jpg",
-      "imagencuatro": "http://calvoquijano.com/images/trabajos/uxui/rediseno-1/rediseno01-05.jpg",
-      "imagencinco": "http://calvoquijano.com/images/trabajos/uxui/rediseno-1/rediseno01-06.jpg",
-      "categoria": [
+      "nombrecat": "Diseño UX / UI",
+      "descripcioncat": "Mi experiencia como Diseñador UX/UI comienza hace ya más de 5 años como diseñador UI junior para marcas como ACDelco y algunos juegos interactivos de la agencia Clab!\nTambién, mi crecimiento más importante y radical surgió de la marca Claro, en donde han estado los retos más importantes de mi carrera como diseñador UX/UI.",
+      "imagencat": "http://calvoquijano.com/images/headers/home.png",
+      "trabajo": [
         {
           "id": 1,
-          "nombrecat": "Diseño UX / UI",
-          "descripcioncat": "Mi experiencia como Diseñador UX/UI comienza hace ya más de 5 años como diseñador UI junior para marcas como ACDelco y algunos juegos interactivos de la agencia Clab!\nTambién, mi crecimiento más importante y radical surgió de la marca Claro, en donde han estado los retos más importantes de mi carrera como diseñador UX/UI.",
-          "imagencat": "http://calvoquijano.com/images/headers/home.png"
+          "titulo": "1er Rediseño Mi Claro",
+          "descripcioncortra": "Primer rediseño de la aplicación App Mi Claro, se realizaron mejoras visuales y algunos ajustes de arquitectura de la información, pasamos de tener 2.8 en la calificación de la tienda Android a tener 4.2:",
+          "problema": "Poca empatía de la comunidad hacia la herramienta, las personas no sentían cercanía al ver que la app era diferente a todo lo que mostraba ser Claro como marca.",
+          "solucion": "Crear un sistema de diseño y con base en él, rediseñar la aplicación.",
+          "reto": "Subir la calificación de App Mi Claro, haciendo que la gente se sienta un poco más identificada con la marca.",
+          "imagenprincipal": "http://calvoquijano.com/images/headers/rediseno1.png",
+          "imagenuno": "http://calvoquijano.com/images/trabajos/uxui/rediseno-1/rediseno01-02.jpg",
+          "imagendos": "http://calvoquijano.com/images/trabajos/uxui/rediseno-1/rediseno01-03.jpg",
+          "imagentres": "http://calvoquijano.com/images/trabajos/uxui/rediseno-1/rediseno01-04.jpg",
+          "imagencuatro": "http://calvoquijano.com/images/trabajos/uxui/rediseno-1/rediseno01-05.jpg",
+          "imagencinco": "http://calvoquijano.com/images/trabajos/uxui/rediseno-1/rediseno01-06.jpg"
         }
       ]
     }
