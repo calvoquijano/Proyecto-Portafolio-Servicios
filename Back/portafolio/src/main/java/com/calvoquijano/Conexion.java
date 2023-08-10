@@ -5,8 +5,8 @@ import java.sql.DriverManager;
 import java.sql.Statement;
 
 public class Conexion {
-    String url = "";
-    String user = "";
+    String url = "jdbc:mysql://localhost:3306/prueba";
+    String user = "root";
     String pw = "";
     String driver = "com.mysql.cj.jdbc.Driver";
     static Connection con;
@@ -31,11 +31,9 @@ public class Conexion {
             System.out.println("Error!");
         }
     }
-    private static final String SQL_CREATE_TABLE = "DROP TABLE IF EXISTS ANIMALES; CREATE TABLE ANIMALES"
-            + "("
-            + " ID INT PRIMARY KEY, "
-            + " NOMBRE varchar(100) NOT NULL "
-            + " )";
+    private static final String SQL_CREATE_TABLE = "CREATE TABLE IF NOT EXISTS registration " + "(id INT not NULL, "
+            + " first VARCHAR(255), " + " last VARCHAR(255), "
+            + " age INT, " + " PRIMARY KEY ( id ))";
     public static void main(String[] args) {
         Conexion conexion = new Conexion();
         conexion.conectar();
@@ -43,12 +41,13 @@ public class Conexion {
         try {
             Statement statementCreate = con.createStatement();
             statementCreate.execute(SQL_CREATE_TABLE);
-            conexion.desconectar();
         } catch (Exception e) {
             System.out.println("Error!");
         } finally {
             System.out.println("Finally!");
         }
+
+        conexion.desconectar();
 
 
     }
